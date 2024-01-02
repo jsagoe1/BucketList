@@ -272,7 +272,7 @@ class Monitor:
 
 if __name__ == "__main__":
    # process WA
-   WA = Workarea(r"/nfs/site/disks/mtl_jsagoe_wa_01/n6_cbb_timing_B0/", "ljpll3p50cbb")
+   WA = Workarea(<path-to-work-area>, <block-name>)
    WA.setUpOutputs()
    WA.createReportList()
 
